@@ -7,17 +7,17 @@
   */
 int main(void)
 {
-	int x = '0';
-	int y = '0';
+	int x = 0;
+	int y = 0;
 
-	for (x = '0'; x <= '9'; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		for (y = '0'; y <= '9'; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			if (x != y && x < y)
 			{
-				putchar(x);
-				putchar(y);
+				putchar(x + 48);
+				putchar(y + 48);
 
 				if (x + y != 17)
 				{
