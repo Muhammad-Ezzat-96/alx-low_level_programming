@@ -1,0 +1,36 @@
+#include <stdio.h>
+/**
+  *main - Entry point
+  *Discription: a program that prints all possible
+  *combinations of two two-digit numbers
+  *Return: always 0
+  */
+int main(void)
+{
+	int x = 0, y;
+
+	while (x <= 99)
+	{
+		y = x;
+		while (y <= 99)
+		{
+			if (y != x)
+			{
+				putchar((x / 10) + 48);
+				putchar((x % 10) + 48);
+				putchar(32);
+				putchar((y / 10) + 48);
+				putchar((y % 10) + 48);
+				if (x != 98 || y != 99)
+				{
+					putchar(44);
+					putchar(32);
+				}
+			}
+			y++;
+		}
+		x++;
+	}
+	putchar('\n');
+	return (0);
+}
