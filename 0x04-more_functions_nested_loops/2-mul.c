@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 /**
-  *mul - functiond that multiplies
-  *Discription:
+  *mul - multiplies 2 numbers
+  *@a: a - it's a variable
+  *@b: b - it's a variable
   *Return: always 0
   */
 int mul(int a, int b)
