@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *int _strlen - function to count the lenth of a specific line
+  *_strlen - function to count the lenth of a specific line
   *@s : string parameter input
   *Return: the length of the string
   */
