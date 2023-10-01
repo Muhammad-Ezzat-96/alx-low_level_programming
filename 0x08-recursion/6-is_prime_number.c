@@ -4,7 +4,6 @@
   *sup_fun - auciliary function
   *@n : input value
   *@i : the factor value
-  *@count : the count of factors
   *Return: either 1 or 0
   */
 int sup_fun(int n, int i)
@@ -13,7 +12,7 @@ int sup_fun(int n, int i)
 	{
 		return (1);
 	}
-	else if ( n % i == 0)
+	else if (n % i == 0)
 	{
 		return (0);
 	}
