@@ -6,7 +6,7 @@
   *@argv: the content ofthe arguments
   *Return: always 0
   */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
 	(void)argv;
