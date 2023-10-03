@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int j = 0;
-	char *c;
 
 	if (argc == 1)
 	{
@@ -21,15 +20,14 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			c = argv[i];
-			while (*c != 0)
+			while (*argv[i] != 0)
 			{
-				if (*c < 47 || *c > 57)
+				if (*argv[i] < 48 || *argv[i] > 57)
 				{
 					printf("Error\n");
 					return (1);
 				}
-				c++;
+				argv[i]++;
 			}
 			j = j + (atoi(argv[i]));
 		}
