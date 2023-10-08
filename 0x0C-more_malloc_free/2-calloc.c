@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  *calloc - function that retur a pointer to dynamically allocated memory
+  *_calloc - function that retur a pointer to dynamically allocated memory
   *@nmemb: count of elements
   *@size: size each element occupies
   *Return: pointer to the memory or NULL
