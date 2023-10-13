@@ -13,9 +13,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *s;
 	va_list ptr;
 
-	va_start(ptr, n);
-	if (separator == NULL || *separator == 0)
+	if (separator == NULL)
 		separator = "";
+	va_start(ptr, n);
 	if (n > 0)
 	{
 		printf("%s", va_arg(ptr, char *));
