@@ -10,15 +10,14 @@ void print_all(const char * const format, ...)
 {
 	int i = 0;
 	char *s;
-	char *separator;
+	char *separator = "";
 	va_list ptr;
 
 	va_start(ptr, format);
 	while (format[i])
 	{
-		if (i == 0)
-			separator = "";
-		separator = ", ";
+		if (i != 0)
+			separator = ", ";
 		switch (format[i])
 		{
 			case 'c':
