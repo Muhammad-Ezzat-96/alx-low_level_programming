@@ -11,5 +11,11 @@ int is_prime_number(int n);
 int _putchar(char c);
 int aux_fun(int sqrt ,int rt);
 int sup_fun(int n, int i);
+void check_1(char *a);
+void check_2(char *b);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
+int str_len(char *s);
+int check(char *s, int start, int end);
 
 #endif
