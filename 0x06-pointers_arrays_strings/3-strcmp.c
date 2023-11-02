@@ -12,12 +12,12 @@ int _strcmp(char *s1, char *s2)
 	int i = 0;
 	int j = 0;
 
-	for (i = 0, *s1 != '\0', i++)
+	for (i = 0; *s1 != '\0'; i++)
 	{
 		s1++;
 	}
 
-	for (j = 0, *s2 != '\0', j++)
+	for (j = 0; *s2 != '\0'; j++)
 	{
 		s2++;
 	}
