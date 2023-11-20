@@ -4,7 +4,7 @@
   *@dest: the copied bites
   *@src: the bites to be copied
   *@n: the number of bites to be copied
-  *Return : pointer to dest
+  *Return: pointer to dest
   */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
